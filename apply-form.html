@@ -5,11 +5,11 @@
    <meta charset="utf-8">
    <meta http-equiv="x-ua-compatible" content="ie=edge">
    <title>Apply Now! </title>
-   <meta name="description" content="">
+   <meta name="description" content="Start your application with Azio Credit today to discover tailored credit solutions that help elevate your financial path and secure your future.">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
    <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/Proper Credit Logo - ICON.png">
+   <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
 
    <!-- CSS here -->
    <link rel="stylesheet" href="assets/css/bootstrap.css">
@@ -23,6 +23,48 @@
    <link rel="stylesheet" href="assets/css/flaticon.css">
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
+
+   <!-- Google Recaptcha -->
+   <script src="https://www.google.com/recaptcha/api.js?render=6LdmCn0nAAAAANC8dQDeC3bko97zlloPkuFcyP7_"></script>
+
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1827CWBXE2"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1827CWBXE2');
+   </script>
+
+   <!-- Google Ads tag -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11286443162"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-11286443162');
+   </script>
+
+   <!-- Google Ads Apply Form Tracking -->
+   <script>
+      function gtag_report_conversion(url) {
+         var callback = function () {
+            if (typeof(url) != 'undefined') {
+               window.location = url;
+            }
+         };
+         gtag('event', 'conversion', {
+               'send_to': 'AW-11286443162/jYMsCMidlOgZEJrp5YUq',
+               'value': 1.0,
+               'currency': 'MYR',
+               'event_callback': callback
+         });
+         return false;
+      }
+   </script>
+
 </head>
 
 <body>
@@ -55,14 +97,14 @@
    </div>
    <!-- back to top end -->
    <!-- search popup start -->
-   <div class="search__popup z-index-8">
+   <!-- <div class="search__popup z-index-8">
       <div class="container">
          <div class="row">
             <div class="col-xxl-12">
                <div class="search__wrapper">
                   <div class="search__top d-flex justify-content-between align-items-center">
                      <div class="search__logo">
-                        <a href="index.html">
+                        <a href="/">
                            <img src="assets/img/logo/logo.png" alt="logo">
                         </a>
                      </div>
@@ -101,16 +143,16 @@
             </div>
          </div>
       </div>
-   </div>
+   </div> -->
    <div class="search-popup-overlay"></div> 
    <!-- search popup end -->
    <!-- header area start -->
    <header class="main-header d-none d-lg-block">
       <div class="tp-header">
-         <div id="header-sticky" class="tp-header__wrapper-inner white-bg">
-         <div class="tp-header__logo white-bg">
-            <a href="/"><img src="assets/img/logo/Proper Credit Logo - HORIZONTAL.png" alt=""></a>
-         </div>
+         <div id="header-sticky" class="tp-header__wrapper-inner">
+            <div class="tp-header__logo white-bg">
+               <a href="/"><img src="assets/img/logo/Azio-Credit-Logo.png" alt=""></a>
+            </div>
             <div class="tp-header__main-header">
                <div class="tp-main-menu">
                   <div class="tp-header__bottom d-flex align-items-center justify-content-between">
@@ -139,7 +181,7 @@
                                        <ul class="sub-menu">
                                           <li><a href="Personal-Loan">Personal Loan</a></li>
                                           <li><a href="Payday-Loan">Payday Loan</a></li>
-                                          <li><a href="Islamic-Loan">Islamic Loan</a></li>
+                                          <!-- <li><a href="Islamic-Loan">Islamic Loan</a></li> -->
                                           <li><a href="Debt-Consolidation">Debt Consolidation</a></li>
                                           <li><a href="Wedding-Loan">Wedding Loan</a></li>
                                           <li><a href="Renovation-Loan">Renovation Loan</a></li>
@@ -160,8 +202,8 @@
                                     </li>
                                     <li><a>Blogs</a>
                                        <ul class="sub-menu">
-                                          <li><a href="mangsa-scam">Avoid Scam</a></li>
-                                          <li><a href="borrow-from">Loan</a></li>
+                                          <li><a href="blogs-avoid-scam">Avoid Scam</a></li>
+                                          <li><a href="blogs-loan">Loan</a></li>
                                        </ul>
                                     </li>
                                     <!-- <li><a href="our-blog">News</a>
@@ -182,7 +224,7 @@
                         <div class="tp-header__right d-flex align-items-center">
                            
                            <div class="tp-header-btn">
-                              <a class="tp-btn" href="apply">Apply Now</a>
+                              <a class="tp-btn" href="apply-form">Apply Now</a>
                            </div>
    
                            <!-- language switcher -->
@@ -211,7 +253,7 @@
          <div class="row align-items-center">
             <div class="col-6">
                <div class="mobile__logo">
-                  <a href="/"><img src="assets/img/logo/Proper Credit Logo - HORIZONTAL.png" alt=""></a>
+                  <a href="/"><img src="assets/img/logo/Azio-Credit-Logo.png" alt=""></a>
                </div>
             </div>
             <div class="col-6">
@@ -232,7 +274,7 @@
             </div>
             <div class="tpoffcanvas__logo">
                <a href="/">
-                  <img src="assets/img/logo/Proper Credit Logo (Main) (1).png" alt="">
+                  <img src="assets/img/logo/Azio-Credit-Logo.png" alt="">
                </a>
             </div>
              <div class="mobile-menu"></div>
@@ -299,7 +341,7 @@
                   <div class="breadcrumb__content p-relative z-index-1 text-center">
                      <h3 class="breadcrumb__title mb-20">Apply Form</h3>
                      <div class="breadcrumb__list mb-10">
-                        <span><a href="index.html">Proper Credit </a></span>
+                        <span><a href="/">AZIO CREDIT </a></span>
                         <span class="dvdr"> / </span>
                         <span class="sub-page-black">APPLY FORM</span>
                      </div>
@@ -427,7 +469,7 @@
                                  </span>
                               </div>
                               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                 data-bs-parent="#accordion" style="">
+                                 data-bs-parent="#accordion">
                                  <div class="card-body">
                                     <div class="contact__info-item d-flex align-items-start mb-20">
                                        <div class="contact__info-icon">
@@ -464,7 +506,7 @@
                                  </span>
                               </div>
                               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                 data-bs-parent="#accordion" style="">
+                                 data-bs-parent="#accordion">
                                  <div class="card-body">
                                     <div class="contact__info-item d-flex align-items-start mb-30">
 <!--                         
@@ -524,13 +566,12 @@
          <div class="tp-cta-4__bg ">
             <div class="row align-items-center">
                <div class="col-xl-8">
-                  <h3 class="cta-titile">Find an Insurance Agent or Start
-                     Tracking your Claims</h3>
+                  <h1 class="cta-titile">Discover Your Credit Ally or Elevate Your Financial Path</h1>
                </div>
                <div class="col-xl-4">
                   <div class="tp-cta-4__right text-end">
                      <div class="tp-cta-4__btn pt-10">
-                        <a class="tp-btn-black" href="#">TAKE YOUR CLAIM</a>
+                        <a class="tp-btn-3" href="#">APPLY NOW</a>
                      </div>
                   </div>
                </div>
@@ -550,7 +591,7 @@
                      <div class="footer__logo">
                         <div class="logo col-lg-6">
                            <a href="/">
-                              <img src="assets/img/logo/Proper Credit Logo (White).png" alt="">
+                              <img src="assets/img/footer/footer-logo.png" alt="">
                            </a>
                            
                         </div>
@@ -605,7 +646,7 @@
                            <span>
                               <i class="fa-solid fa-circle-small"></i>
                            </span>
-                           <a href="mangsa-scam">Blogs</a>
+                           <a href="blogs-avoid-scam">Blogs</a>
                         </li>
                         <li>
                            <span>
@@ -653,7 +694,7 @@
                            <span>
                               <i class="fa-solid fa-circle-small"></i>
                            </span>
-                           <a href="mangsa-scam">Blogs</a>
+                           <a href="blogs-avoid-scam">Blogs</a>
                         </li>
                         <li>
                            <span>
@@ -742,12 +783,12 @@
                            </span>
                            <a href="Payday-Loan">Payday Loan</a>
                         </li>
-                        <li>
+                        <!-- <li>
                            <span>
                               <i class="fa-solid fa-circle-small"></i>
                            </span>
                            <a href="Islamic-Loan">Islamic Loan</a>
-                        </li>
+                        </li> -->
                         <li>
                            <span>
                               <i class="fa-solid fa-circle-small"></i>
@@ -798,11 +839,17 @@
                            <a href="https://maps.app.goo.gl/MxCwZEtQA2UDDvd97" target="_blank">No.15-4, Jalan Medan Tuanku 1, Medan Tuanku, 50300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</a>
                         </li>
                         <li>
-                           <span>
-                              <i class="fa-sharp fa-solid fa-envelope"></i>
-                           </span>
-                           <a href="mailto:support@propercredit.com.my">support@propercredit.com.my</a>
-                        </li>
+                              <span>
+                                 <i class="fa-sharp fa-solid fa-envelope"></i>
+                              </span>
+                              <a href="mailto:support@aziocredit.com.my">support@aziocredit.com.my</a>
+                           </li>
+                           <li>
+                              <span>
+                                 <i class="fa-sharp fa-solid fa-phone"></i>
+                              </span>
+                              <a href="https://wa.link/1zmh1q">018-785 6072</a> 
+                           </li>
                         
                      </ul>
                      <!-- <h6 class="white-color text-bold">Johor Bahru, Johor Branch</h6>
@@ -826,7 +873,7 @@
             <div class="row">
                <div class="col-xxl-6">
                   <div class="footer__copyright text-left">
-                     <p>© Copyright 2024, Proper Credit. All Rights Reserved</p>
+                     <p>© Copyright 2024, Azio Credit. All Rights Reserved</p>
                   </div>
                </div>
                <div class="col-xxl-6">
@@ -965,6 +1012,9 @@
                $('#applyForm').hide();
                $('#success-message').show();
                resetForm();
+
+               // Google Ads conversion tracking
+               gtag_report_conversion();
             },
             error: function (xhr, status, error) {
                if (!quiet) {
