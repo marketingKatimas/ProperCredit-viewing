@@ -814,6 +814,12 @@
                            </span>
                            <a href="mailto:support@propercredit.com.my">support@propercredit.com.my</a>
                         </li>
+                        <li>
+                           <span>
+                              <i class="fa-sharp fa-solid fa-phone"></i>
+                           </span>
+                           <a href="https://wa.link/1zmh1q">018-785 6072</a> 
+                        </li>
                         
                      </ul>
                      <!-- <h6 class="white-color text-bold">Johor Bahru, Johor Branch</h6>
@@ -836,10 +842,10 @@
          <div class="footer__bottom-inner">
             <div class="row">
                <div class="col-xxl-6">
-                  <div class="footer__copyright text-left">
-                     <p>© Copyright 2024, Proper Credit. All Rights Reserved</p>
+                     <div class="footer__copyright text-left">
+                        <p>© Copyright <span id="currentYear"></span>, Proper Credit. All Rights Reserved</p>
+                      </div>
                   </div>
-               </div>
                <div class="col-xxl-6">
                   <div class="footer__copyright text-end">
                      <p><a href="privacy-policy">Privacy Policy</a></p>
@@ -988,6 +994,12 @@
       })
 
    </script>
+   <script>
+
+      // Set current year in Copyright
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+         
+      </script>
 </body>
 
 </html>
