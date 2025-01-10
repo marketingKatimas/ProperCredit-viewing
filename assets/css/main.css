@@ -88,7 +88,7 @@
 /*----------------------------------------*/
 /*  1.1 Theme Default
 /*----------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Fredoka+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 .mean-container .mean-nav ul li > a.mean-expand i, .back-to-top-wrapper, a,
 button,
 p,
@@ -116,9 +116,9 @@ li,
   /**
   @font family declaration
   */
-  --tp-ff-body: 'DM Sans', sans-serif;
-  --tp-ff-heading: 'Fredoka One', cursive;
-  --tp-ff-p: 'DM Sans', sans-serif;
+  --tp-ff-body: 'Bai Jamjuree', serif;
+  --tp-ff-heading: 'Bai Jamjuree', serif;
+  --tp-ff-p: 'Bai Jamjuree', serif;
   --tp-ff-fontawesome: "Font Awesome 6 Pro";
   /**
   @color declaration
