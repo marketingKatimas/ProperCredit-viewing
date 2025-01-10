@@ -28,24 +28,24 @@
    <script src="https://www.google.com/recaptcha/api.js?render=6LdmCn0nAAAAANC8dQDeC3bko97zlloPkuFcyP7_"></script>
    
    <!-- Google tag (gtag.js) -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1827CWBXE2"></script>
+   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-1827CWBXE2"></script>
    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'G-1827CWBXE2');
-   </script>
+   </script> -->
 
    <!-- Google Ads tag -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11286443162"></script>
+   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11286443162"></script>
    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'AW-11286443162');
-   </script>
+   </script> -->
 </head>
 
 <body>
@@ -1017,12 +1017,12 @@
 
       $(document).ready(() => {
          $('.error_message').hide();
-         grecaptcha.execute('6LdmCn0nAAAAANC8dQDeC3bko97zlloPkuFcyP7_', { action: 'submit' }).then((token) => {
-               var form = $('#subscribeForm');
-               form.prepend(`<input type=\'hidden\' id=\'token\' name=\'token\' value=\'${token}\'/>`);
-         }).catch((error) => {
-               console.log('an error occurred executing grecaptcha', error);
-         });
+         // grecaptcha.execute('6LdmCn0nAAAAANC8dQDeC3bko97zlloPkuFcyP7_', { action: 'submit' }).then((token) => {
+         //       var form = $('#subscribeForm');
+         //       form.prepend(`<input type=\'hidden\' id=\'token\' name=\'token\' value=\'${token}\'/>`);
+         // }).catch((error) => {
+         //       console.log('an error occurred executing grecaptcha', error);
+         // });
       })
 
       // Set current year in Copyright
