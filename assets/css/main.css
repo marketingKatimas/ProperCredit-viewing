@@ -656,6 +656,35 @@ div.demo img {
 
 /* Recently added - newly added */
 
+
+.tp-portfolio__thumb{
+  width: 100%; /* Full width */
+    height: 70vh; /* 75% of the viewport height, or use a fixed height like 500px */
+    overflow: hidden; /* Ensure content outside the container is hidden */
+    display: flex; /* Center the image vertically */
+    align-items: center; /* Align the image in the middle vertically */
+    justify-content: center; /* Align the image horizontally */
+}
+.tp-portfolio__thumb img{
+  width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+@media (max-width: 1024px) {
+  .tp-portfolio__thumb {
+      height: 50vh;
+  }
+}
+
+@media (max-width: 474px) {
+  .tp-portfolio__thumb {
+      height: 30vh;
+  }
+}
+
+
+
 .image-container {
   width: 100%;
   max-width: 1000px;
